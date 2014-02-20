@@ -1,0 +1,59 @@
+.forgotcontainer {
+	Z-INDEX: 9999; POSITION: relative; WIDTH: 262px; TOP: 5px; LEFT: 0px; font-family:Arial, Helvetica, sans-serif;
+}
+.forgotcontainer {
+	MARGIN: 0px 169px 0px auto
+}
+.forgotloginContainer {
+	POSITION: relative; FLOAT: right; FONT-SIZE: 12px
+}
+.forgotloginButton SPAN {
+	DISPLAY: block; COLOR: #165c96; FONT-SIZE: 12px; CURSOR: pointer
+}
+.forgotloginButton SPAN:hover {
+	COLOR: #0086f4
+}
+.forgotloginBox {
+	Z-INDEX: 29; POSITION: absolute; DISPLAY: none; TOP: 20px; RIGHT: 0px
+}
+.active.forgotloginButton {
+	border-radius: 3px 3px 0 0
+}
+.active.forgotloginButton EM {
+	POSITION: absolute; WIDTH: 100%; BOTTOM: -1px; BACKGROUND: #c87879; HEIGHT: 1px
+}
+.forgotloginFormarea {
+	MARGIN-TOP: -1px; WIDTH: 298px; BACKGROUND: url(../images/forgetpassword-bg.png) no-repeat; HEIGHT: 155px
+}
+.forgotloginFormarea FIELDSET {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 25px 0px 0px 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET.forgotbody {
+	PADDING-BOTTOM: 17px; MARGIN: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px; PADDING-TOP: 17px; border-radius: 3px; -moz-border-radius: 3px
+}
+.forgotloginFormarea .checkbox {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1px 9px 0px 0px; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; FLOAT: left; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.forgotbody LABEL {
+	MARGIN: 9px 0px 0px; DISPLAY: block; FLOAT: left; COLOR: #3a454d
+}
+.forgotloginFormarea .forgotbody FIELDSET LABEL {
+	MARGIN: 0px 0px 6px; DISPLAY: block; FLOAT: none
+}
+.forgotloginFormarea INPUT {
+	BORDER-BOTTOM: #899caa 1px solid; BORDER-LEFT: #899caa 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; WIDTH: 92%; PADDING-RIGHT: 8px; COLOR: #3a454d; FONT-SIZE: 12px; BORDER-TOP: #899caa 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #899caa 1px solid; PADDING-TOP: 8px; border-radius: 3px; -moz-border-radius: 3px; box-shadow: inset 0px 1px 3px #bbb; -webkit-box-shadow: inset 0px 1px 3px #bbb; -moz-box-shadow: inset 0px 1px 3px #bbb
+}
+.forgotloginFormarea .login {
+	BORDER-BOTTOM: #9edcf8 1px solid; BORDER-LEFT: #9edcf8 1px solid; PADDING-BOTTOM: 8px; MARGIN: 0px 12px 0px 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 10px; BACKGROUND: url(../images/loginbuttonbg.png) #9edcf8 repeat-x; FLOAT: left; COLOR: #fff; BORDER-TOP: #9edcf8 1px solid; CURSOR: pointer; BORDER-RIGHT: #9edcf8 1px solid; PADDING-TOP: 7px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; text-shadow: 0px -1px #278db8
+}
+INPUT:focus {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+.sendbtn{
+float:left;
+width:84px;
+height:27px;
+padding:0px;
+margin:15px 0 0 100px;
+
+}

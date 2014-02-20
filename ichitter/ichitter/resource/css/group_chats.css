@@ -1,0 +1,167 @@
+.grpchatboxblink {
+	background-color: #176689;
+	border-right:1px solid #176689;
+	border-left:1px solid #176689;
+}
+
+#openchat1{
+text-decoration:none;
+cursor:text;
+color: #3D86C3;
+font-family: Helvetica;
+font-size: 16px;
+font-weight: bold;
+}
+#openchat{
+text-decoration:none;
+color: #3D86C3;
+font-family: Helvetica;
+font-size: 16px;
+font-weight: bold;
+}
+form, p, span {
+	margin:0;
+	padding:0; }
+
+input { font:12px arial; }
+#exit {
+	text-decoration:none;
+	color: #ffffff;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+.exitone {
+	cursor : hand;
+}
+.dulltext{
+color: #A5A5A5; 
+}
+.Delete_user{
+text-decoration:none;
+color: #000000;
+font-family: Helvetica;
+font-size: 13px;
+float:right;
+padding-right:10px;
+font-weight:bold;
+}
+.Activate_user{
+text-decoration:none;
+color: #000000;
+font-family: Helvetica;
+font-size: 13px;
+float:right;
+padding-right:10px;
+font-weight:bold;
+}
+.wrapperChat {
+	margin:0 auto;
+	display:none;
+	padding-bottom:15px;
+	background:#99DDF7;
+	color:#fff;
+	width:240px;
+	height:370px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	border:1px solid #EEEEEE; }
+
+.confirmMessage {
+	margin:0 auto;
+	display:none;
+	background:#3D85C2;
+	color:#fff;
+	width:240px;
+    position: fixed;
+    top: 150px;
+    left: 380px;
+	border:1px solid #EEEEEE;
+	z-index:2;
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+	}
+
+
+.chatboxtextarea1 {
+	width: 206px;
+	height:44px;
+    font-size:12px;	
+	border: 1px solid #eeeeee;
+	margin: 3px 0 3px 15px;
+	overflow:hidden;
+}
+/*.chatbox {
+	text-align:left;
+	margin:0 auto;
+	margin-bottom:15px;
+	padding:10px;
+	background:#fff;
+	height:250px;
+	width:200px;
+	color: #000000;
+	font-family: Helvetica;
+	font-size: 11px;
+	border:1px solid #ACD8F0;
+	overflow:auto; }*/
+
+.chatbox1 {
+	text-align:left;
+	margin:0 0 0 18px;
+	background:#fff;
+	float : left;
+	height:250px;
+	width:200px;
+	color: #000000;
+	font-family: Helvetica;
+	font-size: 11px;
+	border:1px solid #ACD8F0;
+	overflow:auto; }
+
+.usermsg {
+    margin-left:10px;
+	width:165px;
+	border:1px solid #ACD8F0; }
+
+#submit { width: 60px; }
+
+.error { color: #ff0000; }
+
+.menugrp { padding:12.5px 14px 12.5px 14px; }
+
+.welcome {
+float:left;
+font-family: Helvetica;
+font-size: 12px;
+font-weight: bold;
+ }
+
+.logout { float:right; }
+
+.closepbox { float:left; }
+
+.closexbox { padding-left:222px; }
+
+a.closelink { text-decoration:none; }
+
+a.closelink:hover { cursor:hand; text-decoration:underline; }
+
+a.firstlink { text-decoration:none; }
+
+a.firstlink:hover { cursor:hand; text-decoration:underline; }
+
+a.secondlink { text-decoration:none; }
+
+a.secondlink:hover { cursor:hand; text-decoration:underline; }
+
+.msgln { padding:0 0 2px 10px; }
+
+.minimi {
+	text-decoration:none;
+	color: #ffffff;
+	font-family: Helvetica;
+	font-size: 16px;
+	cursor : hand;
+}

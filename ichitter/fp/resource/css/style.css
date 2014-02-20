@@ -1,0 +1,91 @@
+body{margin:0px; padding:0px; background-color:white; font-family:Arial, Helvetica, sans-serif;}
+img{outline:none;border:0;}
+ul,ol{padding:0px;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6{ list-style:none;}
+a{outline:none;border:0;}
+a:active{outline: none;}
+
+a:focus{-moz-outline-style: none;}
+
+input:focus {outline: none;}
+textarea:focus {outline: none;}
+select:focus {outline: gray;}
+input:hidden {display: none;}
+
+textarea{overflow:auto; resize:none; font-family:Arial, Helvetica, sans-serif;}
+select {overflow:auto; border:0;}
+
+li{list-style:none;}
+
+#container{margin: 0px auto;width:700px;}
+#wrapper{float:left;margin:0px 0px 0px 5px;width:100%;}
+
+/*-------------------------------------------------------- Middle area--------------------------------------------------------------*/
+.middle-section{float:left; width:686px; height:auto; padding:10px 0; }
+.curve-top-left{float:left; background:url(images/curve-top-l.jpg) no-repeat; width:7px; height:7px;}
+.curve-top-right{float:left; background:url(images/curve-top-r.jpg) no-repeat; width:7px; height:7px;}
+.curve-bot-left{float:left; background:url(images/curve-bot-l.jpg) no-repeat; width:7px; height:7px;}
+.curve-bot-right{float:left; background:url(images/curve-bot-r.jpg) no-repeat; width:7px; height:7px;}
+.curve-top-mid{float:left; overflow:hidden; background:#fff; width:672px; height:6px; border-top:1px solid #b9b9b9;}
+.curve-bot-mid{float:left; overflow:hidden; background:#fff; width:672px; height:6px; border-bottom:1px solid #b9b9b9;}
+.curve-mid{float:left; background:#fff; width:664px; padding:10px; height:auto; border-left:0px solid #d5d5d5; border-right:0px solid #d5d5d5;}
+.curve-mid-login{float:left; background:#fff; width:664px; padding:10px 10px 100px 10px; height:auto; border-left:1px solid #d5d5d5; border-right:1px solid #d5d5d5;}
+
+
+h1{float:left; font-size:15px; color:#842727; padding:0 0 5px 0; margin:0 0 10px 0; width:100%; border-bottom:1px dotted #326c9d;}
+
+/*-------------------------others-------------------------*/
+.form{float:left; width:100%; height:auto;}
+.form-area{float:left; width:515px; height:auto; padding:8px 0; margin:0px;}
+.form-name{float:left; width:175px; text-align:right; font-size:13px; line-height:18px;}
+.form-mid{float:left; width:15px; text-align:center; font-size:13px; line-height:18px;}
+.form-field{float:left; width:310px; text-align:left; font-size:13px; line-height:18px;}
+.form-field1{padding:0 85px 0 0;float:right; width:180px; text-align:right; font-size:13px; line-height:18px;}
+.form-msg{float:left; width:510px; text-align:center; font-size:13px; line-height:18px; height: 21px;}
+
+.txt-field{float:left; height:20px; border:1px solid #c0c0c0; padding:0 0 0 2px; width:230px; line-height:20px; font-size:12px;}
+.txt-fieldst{float:left; height:20px; border:1px solid #c0c0c0; padding:0 0 0 2px; width:275px; line-height:20px; font-size:12px;}
+.txt-area{float:left; height:100px; border:1px solid #c0c0c0; padding:0 0 0 2px; width:230px; overflow:auto; line-height:14px;  font-size:12px;}
+.txt-field1{float:left; height:20px; border:0px solid #c0c0c0; background:none; width:234px; line-height:32px;}
+
+
+/*-------------------------others-------------------------*/
+
+
+.frm-topics{
+	float:left;
+	padding:0px;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	width:516px; 
+	height:385px;
+/*	background:#fcfbfc;*/
+	background: url(../images/big-form-bg.png) no-repeat;
+	z-index:9999;
+	padding:0px 0px 8px 0px;
+	font-size:13px; 
+}
+
+.btn-close{
+	font-size:14px;
+	line-height:14px;
+	right:-15px;
+	top:-15px;
+	position:absolute;
+	/*color:#6fa5fd;*/
+	color: #000;
+	font-weight:700;
+	display:block; color:#600701;
+}
+.frm-title{float:left;margin:0px; padding:15px 0 5px 10px; width:510px;
+height:auto;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+/*background-color:#c87879;
+border-bottom:1px solid #af0b16;*/
+color: #000;
+}
+.frm-box{ float:left; width:515px;height:auto;padding:0px;margin:0px 0px 0px 0px; overflow:none;}
+

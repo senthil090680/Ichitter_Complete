@@ -1,0 +1,159 @@
+
+a {
+color:#06F;
+text-decoration:underline;
+}
+
+p {
+padding:0px 0;
+}
+
+
+/*contact form*/
+#mask {
+background-color:#000;
+display:none;
+height:100%;
+left:0;
+position:fixed;
+top:0;
+width:100%;
+z-index:9000;
+}
+
+#contact {
+background-color:#EEF6FF;
+display:none;
+left:50%;
+margin-left:-200px;
+position:fixed;
+top:90px;
+z-index:9999;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+padding:15px;
+}
+
+#close {
+background:url(../images/close.png) no-repeat right;
+cursor:pointer;
+font-family:arial, sans-serif;
+font-size:20px;
+font-weight:700;
+line-height:24px;
+text-decoration:underline;
+text-align:right;
+padding:19px 30px 5px 5px;
+}
+
+#contact_header {
+font-family:arial, sans-serif;
+font-size:19px;
+font-weight:500;
+
+}
+
+/* form components */
+#WhoWeAre {
+border:1px solid silver;
+background-color:#fff;
+color:#404040;
+font-size:10px;
+width:300px;
+font-family:Verdana, Arial, sans-serif;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+padding:10px;
+}
+#Isay {
+border:1px solid silver;
+background-color:#fff;
+color:#404040;
+font-size:10px;
+width:300px;
+font-family:Verdana, Arial, sans-serif;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+padding:10px;
+}
+input#name:hover[type=text],input#name:focus[type=text],textarea#description:hover,textarea:focus {
+background-color:#E0E0E0;
+border:1px solid #000;
+}
+
+#name {
+border:1px solid silver;
+background-color:#fff;
+color:#404040;
+font-size:10px;
+width:300px;
+font-family:Verdana, Arial, sans-serif;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+padding:10px;
+}
+
+
+#submit {
+border:none;
+width:87px;
+height:39px;
+background-image:url(../images/submit.png);
+}
+
+#submit:hover {
+cursor:pointer;
+}
+
+/* alert messages */
+.success,.error {
+color:#000;
+display:none;
+font-size:15px;
+font-weight:700;
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+padding:5px 10px 5px 10px;
+margin-bottom: 10px;
+}
+
+.success {
+background-color:#9F6;
+border:1px solid #0F0;
+}
+
+.error {
+background-color:#F66;
+border:1px solid red;
+}
+
+#contact input[type=text]{
+border:1px solid silver;
+background-color:#fff;
+color:#404040;
+font-size:10px;
+width:300px;
+font-family:Verdana, Arial, sans-serif;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+padding:10px;
+}
+
+#contact textarea {
+border:1px solid silver;
+background-color:#fff;
+color:#404040;
+font-size:10px;
+width:300px;
+font-family:Verdana, Arial, sans-serif;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+padding:10px;
+}

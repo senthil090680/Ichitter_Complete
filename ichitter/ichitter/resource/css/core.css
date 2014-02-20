@@ -1,0 +1,53 @@
+﻿body {
+}
+#jMonthCalendar a{
+    text-decoration: none;
+    color: #3D86C3
+}
+a { font-size:11px; }
+
+#jMonthCalendar { position:relative;margin-left: 1px;margin-top: 1px; }
+.MonthlyCalendar .MonthNavigation {border-bottom:solid 1px #ddd; clear:both; height:20px; padding:5px 10px 0 10px; }
+.MonthNavigation a{font-size: 13px;}
+.MonthlyCalendar .MonthNavPrev, .MonthlyCalendar .MonthNavNext { width:4%; float:left;margin-right: 0px; }
+.MonthlyCalendar .TodayLink { width:12%; float:left; }
+.MonthlyCalendar .YearNavNext, .MonthlyCalendar .YearNavPrev { width:10%; float:left; margin:2px 0px 0 10px; }
+
+.MonthlyCalendar .MonthName { width:63%; text-align:center; font-weight:bold; float:left;color: #3D86C3; }
+
+
+.MonthlyCalendar { height:100%; width:100%; border:solid 1px #ddd; /*border-collapse:collapse;*/ }
+.MonthlyCalendar #CalendarHead { width:100%; background:#D4EFFF none repeat scroll 0 0; }
+.MonthlyCalendar #CalendarHead .DateHeader { text-align:center; color: #3D86C3;font-size: 13px;}
+
+.MonthlyCalendar #CalendarBody { }
+.DateBox { vertical-align:top; border:solid 1px #ddd; cursor: pointer }
+.DateLabel { width:100%; text-align:center;font-size: 10px; }
+.DateLabel a { cursor:pointer; padding:0 5px 2px; text-decoration:none; line-height:16px; }
+
+#CalendarBody .Inactive, #CalendarBody .Weekend { background:#3D86C3 none repeat scroll 0 0; color: #fff;}
+.Today { background:#A9DFFF none repeat scroll 0 0; }
+
+#CalendarBody .Inactive a{color: #fff}
+
+.FormHeader a{color: #3D86C3; text-align: center}
+#jMonthCalendar .Event { font-size:10px; padding:4px; background-color:#C0D0FF; margin-bottom:1px; -moz-border-radius:0 8px 8px 8px; border:solid 1px #000; cursor:pointer; display:block; }
+.Event a { text-decoration:none; color:#CEEDFF; }
+.Event a:hover { text-decoration:underline; }
+
+.calbox{ float:left; padding:0px; margin:0px; width:530px; background:url(../images/calander-top.png) no-repeat top left;}
+.calandertitle{width:530px; height:25px; float:left;}
+.caltxt{ float:left;font-size:12px; color:#4e78aa; font-weight:bold; font-family:Arial, Helvetica, sans-serif; text-align:left;width:190px; padding:6px 0 0 10px;}
+.caltxtrigh{ font-size:12px; color:#4e78aa; font-weight:bold; font-family:Arial, Helvetica, sans-serif; text-align:right; }
+.contarea{  float:left; width:530px; height:auto;font-weight:normal; font-size:13px; font-family:Arial, Helvetica, sans-serif; text-align:left; margin:8px 0 0 0}
+.contarea p{ float:left; width:auto; height:auto;font-weight:normal; font-size:13px; font-family:Arial, Helvetica, sans-serif; text-align:right; }
+.date{float:left; width:100px; height:auto;font-weight:bold; font-size:12px; font-family:Arial, Helvetica, sans-serif; text-align:left; color:#4e78aa;}
+.calctitle{float:left; clear:both; width:100px; height:auto;font-weight:bold; font-size:12px; font-family:Arial, Helvetica, sans-serif; text-align:left; padding:0 0 5px 50px; color:#5a7ea0}
+.action{float:right; width:50px; height:auto;font-weight:bold; font-size:12px; color:#4e78aa;font-family:Arial, Helvetica, sans-serif; text-align:left;}
+.edit{float:right; width:40px; height:auto;font-weight:bold; font-size:12px; color:#4e78aa; font-family:Arial, Helvetica, sans-serif; text-align:left; padding:0 0 10px 0;}
+.check_box{float:left; width:45px; height:auto; margin:0 0 0 5px;}
+.calctitledes{float:left; width:320px; height:auto;font-weight:normal; font-size:13px; font-family:Arial, Helvetica, sans-serif; text-align:left; padding:0 0 0 50px; color:#000}
+.clear{ clear:both;}
+.calctextarea{ float:left; width:530px; min-height:180px; overflow:none;}
+.style1 {color: #004169}
+

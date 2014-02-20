@@ -1,0 +1,115 @@
+
+
+.msg {
+	height:20px;
+	}
+	
+.leftcol{width:175px; padding: 0px 0px 0px 0px; float: left; margin: 20px 0px 0px 0px;}
+.ht1{height:auto; width:250px; float:left; margin-top:0px; border: 0px solid blue;}
+
+
+
+
+.htbtn{ width:275px; float:left; margin:0px; padding:0px;}
+.b1{background: url("../images/login.png") no-repeat scroll left top transparent; border:0px; float:right; cursor:pointer; margin: 5px 100px 5px 10px;   width:80px; height:28px; border:solid 0px red;}
+.product-table tr td{
+	height:30px;
+	}
+.btntr{
+	 
+}
+
+.product-table td {
+padding: 2px 0px 0px 0px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: black;
+line-height: 18px;
+text-decoration: none;
+height: 20px;
+
+}
+
+.wid{ float:left;
+width:70%;
+
+}
+
+.wid1{ 
+	
+width:70%;
+
+}
+
+#listtbl2 ul,
+#listtbl3 ul{
+    width:50px;
+}
+
+#listtbl2 li,
+#listtbl3 li {
+	display: block;
+	padding: 5px 0px 8px 9px;
+	margin:0 0px 3px 14px;
+	text-align:right;
+	border:solid 1px white;
+}
+
+
+.mmsg {
+ height: 50px;
+}
+.mmsg1 {
+ height: 40px;
+}
+.mmsg2 {
+ height: 10px;
+}
+
+.btsave {
+	
+	}
+.titles {
+	 float: right;
+	}
+.product-table tr.alternate-row	{
+	height:20px;
+	}
+	
+	
+	.login-table tr th{
+	height: 15px;
+	color: white;
+	text-align: left;
+	padding-left: 5px;
+	margin-top: -3px;
+}
+
+.b1{
+	background: url("../images/login.png") no-repeat scroll left bottom transparent;
+border:0px;
+float:right;
+cursor:pointer;
+margin:5px 90px 5px 5px; width:80px; height:28px; border:solid 0px red;}
+
+.login-table	{
+	border-collapse:collapse;
+	font-size: 12px;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	width:380px; 
+	height:200px;
+	padding:0px; 
+	
+	}
+	.lbl_log {
+	width: 90px;
+}
+
+.logintxt{ float:left; padding:0px; margin:0px 0 0 0 ;}
+
+
+.alg7 {
+	margin-left: 80px;
+	}

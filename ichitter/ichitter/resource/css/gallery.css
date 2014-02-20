@@ -1,0 +1,106 @@
+img {
+	outline: none;
+	border: 0;
+}
+
+a {
+	outline: none;
+	border: 0;
+}
+
+a:active {
+	outline: none;
+}
+
+a:focus {
+	-moz-outline-style: none;
+}
+
+li {
+	list-style: none;
+	border: none;
+}
+
+.ucipublishedtxt {
+	padding-bottom: 15px;
+	float: left;
+	/*width: 515px;
+	height: auto; */
+	border: 0px solid #eef6ff;
+	/*background-color:#FFFFFF; */
+	padding: 1px;
+	
+	height: 190px; 
+	width: 500px;
+	overflow: auto; 
+}
+
+.ucipublishedtxt h1 {
+	padding: 7px 1px 0px 9px;
+	margin: 0px 0px 0px 0px;
+	font-size: 12px;
+	font-family: Helvetica;
+	color: #7e7e7e;
+	/*font-weight:bold;*/
+}
+
+.ucipublishedtxt span {
+	background: url(../images/down-arrow.png) top left no-repeat;
+	margin: 0px;
+	font-size: 14px;
+	font-family: Helvetica;
+	color: #066193;
+	/*font-weight:bold;*/
+	padding: 0px 0px 0px 15px;
+}
+
+.ucipublishedtxt p {
+	padding: 7px 0px 0px 8px;
+	margin: 0px 0px 0px 0px;
+	font-size: 13px;
+	font-family: Helvetica;
+	color: #303030;
+	/*font-weight:bold;*/
+}
+
+/*---------------photos---------------------*/
+ul,ol {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+.photos-individual {
+	float: left;
+	border: 1px solid #C5DCF5;
+	padding: 5px;
+	/*background-color: #EEF6FF;
+	margin: 10px 0px 0px 22px;*/
+}
+
+.photos-individual img {
+	float: left;
+	width: 86px;
+	height: 105px;
+	border: 0px solid #C5DCF5;
+	padding: 0px;
+}
+
+.videos-individual {
+	float: left;
+	border: 1px solid #C5DCF5;
+	padding: 5px;
+	background-color: #EEF6FF;
+	margin: 12px 0 0 12px;
+}
+
+.videos-individual img {
+	float: left;
+	width: 142px;
+	height: 90px;
+	border: 1px solid #C5DCF5;
+	padding: 0px;
+}

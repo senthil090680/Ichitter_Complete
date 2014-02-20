@@ -1,0 +1,30 @@
+.topictitle {
+	width: 350px;
+	height: 20px;
+	/*background: url(../images/blog_title_new.jpg) top left no-repeat;*/
+	margin: 0px 0px 0px 0px;
+	padding:0px 0px 20px 5px; 
+	float: left;
+	font-weight:bold;
+	border: 0px solid red;
+}
+.hig{
+	height: 15px;
+}
+
+/*
+.body label {
+	MARGIN: 17px 0px 0px; DISPLAY: block; FLOAT: left; COLOR: #3a454d
+}
+.loginForm .body fieldset label {
+	MARGIN: 17px 0px 6px; DISPLAY: block; FLOAT: none
+}
+*/
+.container {width:262px; position:absolute; top:53px; right:300px; z-index:99; }
+
+.forgotbody label {
+	MARGIN: 17px 0px 0px; DISPLAY: block; FLOAT: left; COLOR: #3a454d;
+}
+.forgotloginFormarea .forgotbody fieldset label {
+	MARGIN: 17px 0px 6px; DISPLAY: block; FLOAT: none;
+}
